@@ -18,7 +18,7 @@ html h1 {
 body {
   font-size: 1.1em;
   font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
-  background-color: #0f0f0f
+  background-color: #63A9B3;
 }
 
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
@@ -28,7 +28,7 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #aaaaaa
+  background-color: #FFEADA;
 }
 
 /* The next set of styles pretty much just "open up" the page and create white space */
@@ -37,22 +37,60 @@ body {
   margin: 5%;
   clear: both;
 }
- 	
+  
 .page_heading {
     margin-left: 5%;
 } 
-	
+
 .author_information {
     margin-left: 5%;
 }
 
-/* we want the validation pages to appear on the right side of the page inside the container */
+/* link elements */
+
+a, li{
+  color: #B39075;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #990012;
+}
+
+li:nth-child(2), li:nth-child(3) {
+  margin-top: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Navigation */
+
+nav {
+  width: 30%;
+  float: left;
+  background-color: #FFDCC1;
+  margin-left: 8.5%;
+}
+
+/* Rules for styling header on the page */
+
+h1, h2{
+  clear: both;
+}
+
+.sky_logo{
+  float: right;
+}
 
 .validation_badge {
   float: right;
 }
 
-
+.valid{
+  display: inline-block;
+}
 
 /* the next three rules set the appearance of each weekly article, adding more whitespace, etc. */
 
@@ -89,13 +127,6 @@ body {
 
 }
 
-nav {
-  width: 30%;
-  float: left;
-  background-color: #303030;
-  margin-left: 8.5%;
-}
-
 @media (max-width: 600px) {
   .validation_badge {
     display: none;
@@ -111,4 +142,3 @@ nav {
   }
 
 }
-

@@ -13,7 +13,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <!-- edit the title to include your name and make it in possesive case (http://englishplus.com/grammar/00000364.htm) -->
-    <title>Template</title>
+    <title>Telling Touch</title>
     
     <!-- The "link" tag identifies your external CSS style sheet. Edit this link to use your particular file  -->
     <link rel="stylesheet" type="text/css" href="stylesheets/responsive_styles.css" />
@@ -30,10 +30,20 @@
     <div class="container"> <!-- contains everything on the page; used for centering and margins-->
 
     	<header class="header"> <!-- contains the constant stuff at the top of the page -->
+        <div class="page_heading">
+          <img class="sky_logo" 
+               src="client_assets/logo.jpg" 
+               alt="sky_logo" 
+               width="600" 
+               height="130">
+          <h1>Telling Touch</h1>
+          <h2>Get in touch with your true self</h2>
+        </div>
+
         <div class="validation_badge">
 
           <!-- replace this html with the html snippets that displays your validation badges of the client wants this. -->
-          <p>
+          <p class="valid">
             <img src="images/html_validation_badge_mockup.png" 
                  alt="replace this with the HTML validator badge code snippet" 
                  height="31" 
@@ -41,26 +51,23 @@
             />
           </p>
           <!-- Notice that the indentation style of the second segment of code is all on one line. Which one is more readable for you? -->
-          <p>
-            <img src="images/css_validation_badge_mockup.png" alt="replace this with the CSS validator badge code snippet" height="31" width="88" />
+          <p class="valid">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss" 
+                 alt="replace this with the CSS validator badge code snippet" 
+                 height="31" 
+                 width="88" 
+            />
           </p>
-        </div>
-
-      	<div class="page_heading">
-          <h1>Template</h1>
-      	</div>
-      	<div class="contact_information">
-          <a href="mailto:contact@email.com">contact@email.com</a>
-      	</div>
+        </div><!--end badge-->
       </header>
 
     <section class="main">
 
       <nav>
         <ul>
-        <li><a href="#">Nav Button 1</a></li>
-        <li><a href="#">Nav Button 2</a></li>
-        <li><a href="#">Nav Button 3</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
         </ul>
       </nav>
 
@@ -150,6 +157,9 @@
     	<footer class="footer">
         <!-- edit the footer to include your name  -->
     	 Copyright &copy; 2013 <i>client name</i>
+        <div class="contact_information">
+          <a href="mailto:contact@email.com">contact@email.com</a>
+        </div>
     	</footer>
   	</div>  <!-- .container -->
 
