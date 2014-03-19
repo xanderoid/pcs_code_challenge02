@@ -29,7 +29,7 @@
 
     <div class="container"> <!-- contains everything on the page; used for centering and margins-->
 
-    	<div class="header"> <!-- contains the constant stuff at the top of the page -->
+    	<header class="header"> <!-- contains the constant stuff at the top of the page -->
         <div class="validation_badge">
 
           <!-- replace this html with the html snippets that displays your validation badges of the client wants this. -->
@@ -52,11 +52,22 @@
       	<div class="contact_information">
           <a href="mailto:contact@email.com">contact@email.com</a>
       	</div>
-      </div>
+      </header>
+
+    <section class="main">
+
+      <nav>
+        <ul>
+        <li><a href="#">Nav Button 1</a></li>
+        <li><a href="#">Nav Button 2</a></li>
+        <li><a href="#">Nav Button 3</a></li>
+        </ul>
+      </nav>
 
     		
+      <section class="articles">
 
-    	<div class="article">
+    	<article>
       	<div class="article_heading">
       	 <h1>This is an article</h1> <i>mm/dd/yyyy - replace with the date and a subject line of your choice</i>
       	</div>
@@ -64,9 +75,9 @@
           <p>This is an article paragraph and other stuff.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra ultricies nibh, in interdum tellus ultrices id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse urna lorem, imperdiet a mattis sed, blandit id elit. Proin id ultrices odio. Vivamus ut nisl nulla. Proin consectetur urna vitae est fermentum in placerat elit condimentum. Morbi iaculis elit sit amet lacus convallis a semper risus elementum.</p>
       	</div>		
-    	</div>
+    	</article>
 
-      <div class="article">
+      <article>
         <div class="article_heading">
          <h1>This is another article</h1> <i> mm/dd/yyyy notice how the html for this is basically the same as the one above it.</i>
         </div>
@@ -83,9 +94,9 @@
             <li>items</li>
           </ol>
         </div>    
-      </div>
+      </article>
 
-      <div class="article">
+      <article>
         <div class="article_heading">
          <h1>This article has a form</h1> <i>mm/dd/yyyy - replace with the date and a subject line of your choice</i>
         </div>
@@ -129,14 +140,17 @@
             </table>                 
           </form>
         </div>    
-      </div>
+      </article>
 
+      </section><!--end of articles section-->
+
+    </section>
     	<!-- the footer area sits at the bottom of the page -->
 
-    	<div class="footer">
+    	<footer class="footer">
         <!-- edit the footer to include your name  -->
     	 Copyright &copy; 2013 <i>client name</i>
-    	</div>
+    	</footer>
   	</div>  <!-- .container -->
 
 
