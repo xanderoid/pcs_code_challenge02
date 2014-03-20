@@ -80,6 +80,12 @@ p {
   color: #858487;
 }
 
+#headshot {
+  max-width: 30%;
+  max-height: 30%;
+
+}
+
 /* Rules for styling header on the page */
 
 .header {
@@ -127,7 +133,7 @@ h1, h2 {
 .articles {
   margin: 5%;
   width: 70%;
-  float: left;
+  float: right;
 }
 
 .article_heading {
