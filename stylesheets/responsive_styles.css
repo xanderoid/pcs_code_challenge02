@@ -17,7 +17,7 @@ html h1 {
 
 body {
   font-size: 1.1em;
-  font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
+  font-family: 'Muli', "Helvetica Neue", Helvetica, Verdana, sans-serif;
   background-color: #63A9B3;
 }
 
@@ -48,7 +48,7 @@ body {
 
 /* link elements */
 
-a, li{
+a, li {
   color: #B39075;
   text-decoration: none;
 }
@@ -74,18 +74,48 @@ nav {
   margin-left: 8.5%;
 }
 
+/* body copy */
+
+p {
+  color: #858487;
+}
+
 /* Rules for styling header on the page */
 
-h1, h2{
+.header {
+  overflow: auto;
+}
+
+.page_heading{
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 3em;
+  display: inline-block;
+}
+
+h1, h2 {
   clear: both;
 }
 
-.sky_logo{
+.sky_logo {
   float: right;
+}
+
+.subtitle {
+  font-size: .5em;
+  display: block;
+  line-height: 25px;
+}
+
+.right_subtitle {
+  margin-left: 35px;
 }
 
 .validation_badge {
   float: right;
+  clear: both;
 }
 
 .valid{
